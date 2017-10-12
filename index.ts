@@ -4,7 +4,7 @@ class Fibonacci {
     let prevTwo = (n > 2) ? 1 : 0;
     let total = prevOne + prevTwo;
 
-    for (let i = 2; i < n; i++) {
+    for (let i = 3; i < n; i++) {
       total = prevOne + prevTwo;
       prevTwo = prevOne;
       prevOne = total; 
@@ -18,4 +18,4 @@ class Fibonacci {
 
 let f = new Fibonacci;
 
-console.log('returned: **** ', f.getFib(8));
+console.log('returned: **** ', f.getFib(4));
