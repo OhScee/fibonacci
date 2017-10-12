@@ -1,4 +1,4 @@
-class Fibonaci {
+class Fibonacci {
   getFib(n) {
     let prevOne = (n > 0) ? 1 : 0;
     let prevTwo = (n > 2) ? 1 : 0;
@@ -16,6 +16,6 @@ class Fibonaci {
   }
 }
 
-let f = new Fibonaci;
+let f = new Fibonacci;
 
 console.log('returned: **** ', f.getFib(8));
